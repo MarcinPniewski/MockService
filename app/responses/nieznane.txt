@@ -1,0 +1,2 @@
+user@pmaszyna:~ > curl 'http://aplikacja:8089/statusZadania?kod=zadanie_3'
+BRAK ZADANIA O PODANYM KODZIE
