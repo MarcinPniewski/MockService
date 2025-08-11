@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: 'Wersja (np. 1.1)'
+        description: 'Wersja (np. 1.0)'
         required: true
         type: string
 
