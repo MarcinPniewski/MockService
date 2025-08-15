@@ -1,7 +1,7 @@
 import logging
 import os
 
-def setup_logger(log_path="/var/logs/MockService.log"):
+def setup_logger(log_path="/var/log/MockService.log"):
     os.makedirs(os.path.dirname(log_path), exist_ok=True)
     logging.basicConfig(
         filename=log_path,
